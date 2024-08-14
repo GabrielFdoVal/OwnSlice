@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #1D3557;
+    display: flex;
+    align-items: center;
+    padding: 3vh 10vh 3vh 10vh;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+    font-size: 8vh;
+    color: #ffd166;
+}
+
+.logo_title {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    color: #ffd166;
+    font-size: 3vh;
+}
+
+.title_subtitle {
+    text-align: left;
+}
