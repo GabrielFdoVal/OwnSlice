@@ -9,8 +9,8 @@ export default function Navbar(){
             <nav className={styles.nav}>
                 <Link to="/"><p>Home</p></Link>                
                 <Link to="/aboutus"><p>About Us</p></Link>
-                <Link to="/"><p>Services</p></Link>
-                <Link to="/"><p>Contact</p></Link>
+                <Link to="/services"><p>Services</p></Link>
+                <Link to="/contact"><p>Contact</p></Link>
             </nav>
         </div>
         
