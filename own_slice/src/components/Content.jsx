@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "../views/Home";
-import AboutUs from "../views/AboutUs";
+import AboutUs from "../views/About_us";
 import Services from "../views/Services";
 import Contact from "../views/Contact";
 
