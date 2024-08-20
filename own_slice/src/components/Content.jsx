@@ -4,6 +4,7 @@ import Home from "../views/Home";
 import AboutUs from "../views/About_us";
 import Services from "../views/Services";
 import Contact from "../views/Contact";
+import FAQ from "../views/Faq";
 
 export default function Content(props) {
     return (
@@ -13,6 +14,7 @@ export default function Content(props) {
                 <Route path="/aboutus" element={<AboutUs />}/>    
                 <Route path="/services" element={<Services />}/>    
                 <Route path="/contact" element={<Contact />}/>    
+                <Route path="/faq" element={<FAQ />}/>
             </Routes>
         </div>
     )

@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './Header.module.css'
-import Image from "./Image";
-import logo from "./own_slice_logo_no_background.png"
+import logo from "../images/own_slice_logo_no_background.png"
 
 export default function Header(props){
     return (
@@ -10,7 +9,7 @@ export default function Header(props){
                     <h1>Own Slice</h1>
                     <p>Your Slice of Portugal</p>  
                 </div>
-            <img src={logo} height={170} />
+            <img src={logo} height={170} alt="logo" />
                 
         </header>
     )
