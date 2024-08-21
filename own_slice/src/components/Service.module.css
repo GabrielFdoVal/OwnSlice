@@ -32,6 +32,7 @@
 .lista {
     display: grid;
     justify-items: center;
+    margin-bottom: 2vh;
 }
 
 .home_text li {

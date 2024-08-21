@@ -5,35 +5,15 @@
 .home_text {
     display: flex;
     border-radius: 20px;
-    height: 40vh;
     margin: 5vh;
-    overflow: hidden;
     background-color: white;
     overflow: hidden;
-    position: relative;
-}
-
-.left {
-    height: 100%;
-    width: 50%;
-    justify-content: center;
-}
-
-.right {
-    height: 100%;
-    width: 50%;
-}
-
-.home_text img {
-    width:100%;
-    height:100%;
-    object-fit:cover;
 }
 
 .home_text h3 {
     font-family: "Lora", serif;
     color: #1D3557;
-    font-size: 4.5vh;
+    font-size: 4.2vh;
     margin-top: 1vh;
     margin-bottom: 2vh;
     text-align: center;
@@ -45,6 +25,21 @@
     margin-left: 3vh;
     margin-right: 3vh;
     margin-bottom: 2vh;
+    font-size: 2.5vh;
+    text-align: justify;
+}
+
+.lista {
+    display: grid;
+    justify-items: center;
+}
+
+.home_text li {
+    color: #1D3557;
+    font-family: "Poppins", sans-serif;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-bottom: 1vh;
     font-size: 2.5vh;
     text-align: justify;
 }
