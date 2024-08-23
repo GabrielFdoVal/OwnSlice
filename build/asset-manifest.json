@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c169034.css",
+    "main.js": "/static/js/main.eaf67311.js",
+    "static/js/453.24eb2063.chunk.js": "/static/js/453.24eb2063.chunk.js",
+    "static/media/arco_triunfo.png": "/static/media/arco_triunfo.13c9a3158c52bca8d65a.png",
+    "static/media/lisbon_image.png": "/static/media/lisbon_image.b1872d8a4dc13f9d702c.png",
+    "static/media/bond.png": "/static/media/bond.ff9ab762d572b5246640.png",
+    "static/media/background.jpg": "/static/media/background.2f472f0bab52008c554f.jpg",
+    "static/media/own_slice_logo_no_background.png": "/static/media/own_slice_logo_no_background.060e11ad17f45a4f9cb4.png",
+    "index.html": "/index.html",
+    "main.3c169034.css.map": "/static/css/main.3c169034.css.map",
+    "main.eaf67311.js.map": "/static/js/main.eaf67311.js.map",
+    "453.24eb2063.chunk.js.map": "/static/js/453.24eb2063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c169034.css",
+    "static/js/main.eaf67311.js"
+  ]
+}
