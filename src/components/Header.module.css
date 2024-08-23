@@ -4,12 +4,13 @@
 
 .header {
     overflow: hidden;
-    background-color: white;
+    background-color: #1D3557;
+    display: flex;
     align-items: center;
     padding: 3vh 10vh 3vh 10vh;
+    padding-top: 3vh;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -19,23 +20,23 @@ h1 {
     font-family: "Lora", serif;
     font-size: 10vh;
     font-weight: bold;
-    color: #1D3557;
+    color: #ffd166;
 }
 
 .logo_title {
+    text-align: left;
     display: flex;
     align-items: center;
 }
 
 p {
     margin: 0;
-    color: #1D3557;
+    color: #ffd166;
     font-size: 3vh;
 }
 
 .title_subtitle {
     text-align: center;
-    display: flex;
 }
 
 .title_blue {
