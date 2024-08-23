@@ -4,12 +4,12 @@
 
 .header {
     overflow: hidden;
-    background-color: #1D3557;
-    display: flex;
+    background-color: white;
     align-items: center;
     padding: 3vh 10vh 3vh 10vh;
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -17,8 +17,9 @@ h1 {
     margin: 0;
     padding: 0;
     font-family: "Lora", serif;
-    font-size: 8vh;
-    color: #ffd166;
+    font-size: 10vh;
+    font-weight: bold;
+    color: #1D3557;
 }
 
 .logo_title {
@@ -28,10 +29,19 @@ h1 {
 
 p {
     margin: 0;
-    color: #ffd166;
+    color: #1D3557;
     font-size: 3vh;
 }
 
 .title_subtitle {
-    text-align: left;
+    text-align: center;
+    display: flex;
+}
+
+.title_blue {
+    color: #86A6A4;
+}
+
+.title_yellow {
+    color: #FFB248;
 }

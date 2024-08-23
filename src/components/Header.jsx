@@ -6,10 +6,10 @@ export default function Header(props){
     return (
         <header className={styles.header}>
             <div className={styles.title_subtitle}>
-                    <h1>Own Slice</h1>
-                    <p>Your Slice of Portugal</p>  
-                </div>
-            <img src={logo} height={170} alt="logo" />
+                <h1 className={styles.title_yellow}>own</h1>
+                <h1 className={styles.title_blue}>slice</h1>
+            </div>
+            <p>Your Slice of Portugal</p>  
                 
         </header>
     )
